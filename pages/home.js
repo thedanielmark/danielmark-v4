@@ -12,7 +12,7 @@ export default function Home() {
         <ul className="nav ml-0">
           <li className="nav-item">
             <a
-              className="nav-link"
+              className="nav-link grey-to-white"
               style={{ paddingLeft: "0 !important" }}
               target="top"
               href="https://github.com/thedanielmark"
@@ -22,7 +22,7 @@ export default function Home() {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link"
+              className="nav-link grey-to-white"
               target="top"
               href="https://linkedin.com/in/thedanielmark"
             >
@@ -31,7 +31,7 @@ export default function Home() {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link"
+              className="nav-link grey-to-white"
               target="top"
               href="https://twitter.com/the_danielmark"
             >

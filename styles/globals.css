@@ -31,3 +31,11 @@ a {
   color: #ffffff;
   font-family: "Ubuntu", sans-serif;
 }
+
+.grey-to-white {
+  color: #7c7d7e;
+}
+
+.grey-to-white:hover {
+  color: #ffffff;
+}
