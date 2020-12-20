@@ -16,18 +16,22 @@ export default function Home() {
                   className="nav-link grey-to-white"
                   style={{ paddingLeft: "0px" }}
                 >
-                  Work
+                  <span className="middle-underline">Work</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/personal">
-                <a className="nav-link grey-to-white">Personal</a>
+                <a className="nav-link grey-to-white">
+                  <span className="middle-underline">Personal</span>
+                </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="other-stuff">
-                <a className="nav-link grey-to-white">Other fun stuff</a>
+                <a className="nav-link grey-to-white">
+                  <span className="middle-underline">Ah shit here we go again</span>
+                </a>
               </Link>
             </li>
           </ul>
