@@ -1,9 +1,12 @@
 import Head from "next/head";
 
 export default function Layout(props) {
+
   return (
     <div>
       <Head>
+        <title>Daniel Mark | Personal Website and Developer Portfolio</title>
+
         {/* <!-- Primary Meta Tags --> */}
         <meta
           name="title"
@@ -40,7 +43,65 @@ export default function Layout(props) {
         />
         <meta property="twitter:image" content="../images/website-card.png" />
       </Head>
-      <div className="layout">{props.children}</div>
+      <div
+        className="d-flex justify-content-center align-items-center layout"
+        style={{ minHeight: "100vh" }}
+      >
+        <div>
+          {props.children}
+          <div>
+            <hr className="mt-4" />
+            <ul className="nav ml-0">
+              <li className="nav-item">
+                <a
+                  className="nav-link grey-to-white"
+                  target="top"
+                  href="https://github.com/thedanielmark"
+                  style={{ paddingLeft: "0px" }}
+                >
+                  <i className="fab fa-github" />
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link grey-to-white"
+                  target="top"
+                  href="https://linkedin.com/in/thedanielmark"
+                >
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link grey-to-white"
+                  target="top"
+                  href="https://twitter.com/the_danielmark"
+                >
+                  <i className="fab fa-twitter" />
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link grey-to-white"
+                  target="top"
+                  href="https://www.youtube.com/channel/UCRO3ipEkZHDnFn5mfCm2hzA"
+                >
+                  <i className="fab fa-youtube" />
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link grey-to-white"
+                  target="top"
+                  href="mailto:hello@thedanielmark.com"
+                >
+                  <i className="fas fa-envelope" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
