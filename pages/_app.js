@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import "../styles/globals.css";
 import "../styles/bootstrap.min.css";
 
