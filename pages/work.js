@@ -5,7 +5,7 @@ import Layout from "./layout";
 // Components
 import Home from "./components/Index/home";
 
-export default function App() {
+export default function Work() {
   const easing = [0.6, -0.05, 0.01, 0.99];
   const fade1 = {
     initial: {

@@ -14,7 +14,7 @@ export default function Home() {
         <div>
           <ul className="nav ml-0 mt-4">
             <li className="nav-item">
-              <Link href={"/work"}>
+              <Link href="/work">
                 <a
                   className="nav-link grey-to-white"
                   style={{ paddingLeft: "0 !important" }}
