@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import Layout from "./layout";
 
 // Components
-import Home from "./components/Index/home";
+import MainContent from "./components/Projects/MainContent";
 
-export default function Work() {
+export default function Projects() {
   const easing = [0.6, -0.05, 0.01, 0.99];
   const fade1 = {
     initial: {
@@ -23,7 +23,7 @@ export default function Work() {
     <Layout>
       <motion.div exit={{ opacity: 0 }} initial="initial" animate="animate">
         <motion.div variants={fade1}>
-          <Home></Home>
+          <MainContent></MainContent>
         </motion.div>
       </motion.div>
     </Layout>

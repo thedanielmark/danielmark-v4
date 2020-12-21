@@ -7,9 +7,7 @@ import Home from "./components/Index/home";
 export default function App() {
   return (
     <Layout>
-
-          <Home></Home>
-
+      <Home></Home>
     </Layout>
   );
 }
