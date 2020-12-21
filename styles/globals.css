@@ -38,15 +38,16 @@ a {
 }
 
 .grey-to-white:hover {
+  transition: all 0.3s ease;
   color: #ffffff;
 }
 
-span.middle-underline {
+.middle-underline {
   position: relative;
   padding: 0px 0px 10px 0px;
 }
 
-span.middle-underline:before {
+.middle-underline:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -59,7 +60,24 @@ span.middle-underline:before {
   transition: all 0.2s ease-in-out;
 }
 
-span.middle-underline:hover:before {
+.middle-underline:hover:before {
   visibility: visible;
   transform: scaleX(1);
+}
+
+#projects > div > div > div > p {
+  color: #7c7d7e;
+}
+
+.bg-green {
+  background-color: #51515C;
+}
+
+#tech-badges > span {
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+#tech-badges > ul > li > a {
+  padding-top: 0px;
 }

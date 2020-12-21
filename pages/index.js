@@ -1,13 +1,12 @@
-import React from "react";
 import Layout from "./layout";
 
 // Components
-import Home from "./components/Index/home";
+import MainContent from "./components/Index/MainContent";
 
 export default function App() {
   return (
     <Layout>
-      <Home></Home>
+      <MainContent></MainContent>
     </Layout>
   );
 }
