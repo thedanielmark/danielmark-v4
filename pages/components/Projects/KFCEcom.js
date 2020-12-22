@@ -12,69 +12,28 @@ export default function KFCEcom() {
           </h6>
         </div>
         <p className="mt-2">
-          Bunch of personal websites and developer portfolio sites for myself,
-          ranging from the maximal to super minimal design philosophy.
+          E-commerce platform with monthly recurring payments made possible by a
+          Razorpay integration to sell merchandise for KuTumba FC.
         </p>
         <h6 className="text-grey mt-4">Releases</h6>
         <div id="tech-badges">
-          <ul className="nav">
-            <li className="nav-item">
-              <Link passHref href={"https://v1.thedanielmark.com/"}>
-                <a
-                  className="nav-link grey-to-white"
-                  style={{ paddingLeft: "0px" }}
-                >
-                  v1
-                </a>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link passHref href={"https://v2.thedanielmark.com/"}>
-                <a
-                  className="nav-link grey-to-white"
-                  style={{ paddingLeft: "0px" }}
-                >
-                  v1
-                </a>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link passHref href={"https://v3.thedanielmark.com/"}>
-                <a
-                  className="nav-link grey-to-white"
-                  style={{ paddingLeft: "0px" }}
-                >
-                  v1
-                </a>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link passHref href={"https://v4.thedanielmark.com/"}>
-                <a
-                  className="nav-link grey-to-white"
-                  style={{ paddingLeft: "0px" }}
-                >
-                  v1
-                </a>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link passHref href={"https://v5.thedanielmark.com/"}>
-                <a
-                  className="nav-link grey-to-white"
-                  style={{ paddingLeft: "0px" }}
-                >
-                  v5 (latest)
-                </a>
-              </Link>
-            </li>
-          </ul>
+          <Link passHref href={"https://v5.thedanielmark.com/"}>
+            <a className="grey-to-white text-decoration-none">v1 (latest)</a>
+          </Link>
         </div>
         <h6 className="text-grey mt-4">Technologies</h6>
         <div id="tech-badges">
-          <span className="badge rounded-pill bg-green">Next.js</span>
           <span className="badge rounded-pill bg-green">React</span>
           <span className="badge rounded-pill bg-green">PHP</span>
+          <span className="badge rounded-pill bg-green">Razorpay</span>
+          <span className="badge rounded-pill bg-green">jQuery</span>
+          <span className="badge rounded-pill bg-green">Bootstrap</span>
+          <span className="badge rounded-pill bg-green">Axios</span>
+          <span className="badge rounded-pill bg-green">SWR</span>
+          <span className="badge rounded-pill bg-green">Cloudflare</span>
+          <span className="badge rounded-pill bg-green">Vercel</span>
+          <span className="badge rounded-pill bg-green">jQuery</span>
+          <span className="badge rounded-pill bg-green">MariaDB</span>
         </div>
       </div>
     </React.Fragment>

@@ -21,94 +21,38 @@ export default function FringeMessenger() {
         <hr className="mt-4" />
         <div>
           <div>
-            <h6 className="middle-underline d-inline">
-              Fringe Messenger
-            </h6>
+            <h6 className="middle-underline d-inline">Fringe Messenger</h6>
           </div>
           <p className="mt-2">
-            MixSpace is an internet company that is a cloud computing platform with a focus on serverless
-            computing applications.
+            Fringe Messenger is an instant messaging app that makes use of a
+            symmetric key cryptographic system based off of the BlackBox
+            project. Theoretically, it's the only data transfer system capable
+            of withstanding a Shor's algorithm based brute force attack even by
+            a Quantum computer. Fringe runs on all major smartphone and desktop
+            operating systems.
           </p>
           <h6 className="mt-4">Releases</h6>
           <div id="tech-badges">
-            <ul className="nav">
-              <li className="nav-item">
-                <Link passHref href={"https://v1.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v1
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v2.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v2
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v3.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v3
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v4.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v4
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v5.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v5 (latest)
-                  </a>
-                </Link>
-              </li>
-            </ul>
+            <Link passHref href={""}>
+              <a className="grey-to-white text-decoration-none">v1 (latest)</a>
+            </Link>
           </div>
           <h6 className="mt-4">Technologies</h6>
           <div id="tech-badges">
-            <span className="badge rounded-pill bg-green">Next.js</span>
-            <span className="badge rounded-pill bg-green">React</span>
+            <span className="badge rounded-pill bg-green">Cordova</span>
             <span className="badge rounded-pill bg-green">PHP</span>
-            <span className="badge rounded-pill bg-green">Python</span>
+            <span className="badge rounded-pill bg-green">C++</span>
             <span className="badge rounded-pill bg-green">Apache</span>
             <span className="badge rounded-pill bg-green">Nginx</span>
-            <span className="badge rounded-pill bg-green">Shell</span>
-            <span className="badge rounded-pill bg-green">Node.js</span>
-            <span className="badge rounded-pill bg-green">jQuery</span>
             <span className="badge rounded-pill bg-green">Bootstrap</span>
             <span className="badge rounded-pill bg-green">MariaDB</span>
             <span className="badge rounded-pill bg-green">MongoDB</span>
             <span className="badge rounded-pill bg-green">Firestore</span>
             <span className="badge rounded-pill bg-green">AJAX</span>
-            <span className="badge rounded-pill bg-green">SWR</span>
             <span className="badge rounded-pill bg-green">jQuery</span>
-            <span className="badge rounded-pill bg-green">Docker</span>
             <span className="badge rounded-pill bg-green">Linux</span>
-            <span className="badge rounded-pill bg-green">ESXi</span>
             <span className="badge rounded-pill bg-green">Git</span>
-            <span className="badge rounded-pill bg-green">OpenStack</span>
             <span className="badge rounded-pill bg-green">Cloudflare</span>
-            <span className="badge rounded-pill bg-green">Vercel</span>
           </div>
         </div>
       </motion.div>

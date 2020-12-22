@@ -26,44 +26,15 @@ export default function XStackStatus() {
             </h6>
           </div>
           <p className="mt-2">
-            MixSpace is an internet company that is a cloud computing platform
-            with a focus on serverless computing applications.
+            Website to display the status of all services on the xStack Platform
+            in real time. The dashboard also had an API to stream the overall
+            availability of the platform to 3rd party sites.
           </p>
           <h6 className="mt-4">Releases</h6>
           <div id="tech-badges">
             <ul className="nav">
               <li className="nav-item">
-                <Link passHref href={"https://v1.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v1
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v2.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v2
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v3.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v3
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v4.mixspace.xyz/"}>
+                <Link passHref href={"https://licet.xstack.xyz/"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
@@ -73,7 +44,7 @@ export default function XStackStatus() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v5.mixspace.xyz/"}>
+                <Link passHref href={"https://licet.xstack.xyz/"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
@@ -86,29 +57,14 @@ export default function XStackStatus() {
           </div>
           <h6 className="mt-4">Technologies</h6>
           <div id="tech-badges">
-            <span className="badge rounded-pill bg-green">Next.js</span>
-            <span className="badge rounded-pill bg-green">React</span>
             <span className="badge rounded-pill bg-green">PHP</span>
-            <span className="badge rounded-pill bg-green">Python</span>
-            <span className="badge rounded-pill bg-green">Apache</span>
-            <span className="badge rounded-pill bg-green">Nginx</span>
-            <span className="badge rounded-pill bg-green">Shell</span>
-            <span className="badge rounded-pill bg-green">Node.js</span>
             <span className="badge rounded-pill bg-green">jQuery</span>
             <span className="badge rounded-pill bg-green">Bootstrap</span>
             <span className="badge rounded-pill bg-green">MariaDB</span>
-            <span className="badge rounded-pill bg-green">MongoDB</span>
-            <span className="badge rounded-pill bg-green">Firestore</span>
             <span className="badge rounded-pill bg-green">AJAX</span>
-            <span className="badge rounded-pill bg-green">SWR</span>
             <span className="badge rounded-pill bg-green">jQuery</span>
-            <span className="badge rounded-pill bg-green">Docker</span>
-            <span className="badge rounded-pill bg-green">Linux</span>
-            <span className="badge rounded-pill bg-green">ESXi</span>
             <span className="badge rounded-pill bg-green">Git</span>
-            <span className="badge rounded-pill bg-green">OpenStack</span>
             <span className="badge rounded-pill bg-green">Cloudflare</span>
-            <span className="badge rounded-pill bg-green">Vercel</span>
           </div>
         </div>
       </motion.div>

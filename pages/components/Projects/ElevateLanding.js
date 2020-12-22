@@ -22,18 +22,19 @@ export default function ElevateLanding() {
         <div>
           <div>
             <h6 className="middle-underline d-inline">
-              Elevate Landing Site
+              Elevate Landing Website
             </h6>
           </div>
           <p className="mt-2">
-            MixSpace is an internet company that is a cloud computing platform with a focus on serverless
-            computing applications.
+            Elevate is a website for Pattarai's first global engineering
+            conference on science and technology. The first iteration was built
+            using Next.js but the next one was built using React.
           </p>
           <h6 className="mt-4">Releases</h6>
           <div id="tech-badges">
             <ul className="nav">
               <li className="nav-item">
-                <Link passHref href={"https://v1.mixspace.xyz/"}>
+                <Link passHref href={"https://elevate.pattarai.in/"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
@@ -43,42 +44,12 @@ export default function ElevateLanding() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v2.mixspace.xyz/"}>
+                <Link passHref href={"https://elevate.pattarai.in/"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
                   >
-                    v2
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v3.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v3
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v4.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v4
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v5.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v5 (latest)
+                    v2 (latest)
                   </a>
                 </Link>
               </li>
@@ -88,25 +59,15 @@ export default function ElevateLanding() {
           <div id="tech-badges">
             <span className="badge rounded-pill bg-green">Next.js</span>
             <span className="badge rounded-pill bg-green">React</span>
-            <span className="badge rounded-pill bg-green">PHP</span>
-            <span className="badge rounded-pill bg-green">Python</span>
             <span className="badge rounded-pill bg-green">Apache</span>
-            <span className="badge rounded-pill bg-green">Nginx</span>
-            <span className="badge rounded-pill bg-green">Shell</span>
             <span className="badge rounded-pill bg-green">Node.js</span>
-            <span className="badge rounded-pill bg-green">jQuery</span>
             <span className="badge rounded-pill bg-green">Bootstrap</span>
             <span className="badge rounded-pill bg-green">MariaDB</span>
-            <span className="badge rounded-pill bg-green">MongoDB</span>
-            <span className="badge rounded-pill bg-green">Firestore</span>
             <span className="badge rounded-pill bg-green">AJAX</span>
+            <span className="badge rounded-pill bg-green">Axios</span>
             <span className="badge rounded-pill bg-green">SWR</span>
             <span className="badge rounded-pill bg-green">jQuery</span>
-            <span className="badge rounded-pill bg-green">Docker</span>
-            <span className="badge rounded-pill bg-green">Linux</span>
-            <span className="badge rounded-pill bg-green">ESXi</span>
             <span className="badge rounded-pill bg-green">Git</span>
-            <span className="badge rounded-pill bg-green">OpenStack</span>
             <span className="badge rounded-pill bg-green">Cloudflare</span>
             <span className="badge rounded-pill bg-green">Vercel</span>
           </div>

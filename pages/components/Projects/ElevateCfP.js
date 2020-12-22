@@ -21,49 +21,17 @@ export default function ElevateCfP() {
         <hr className="mt-4" />
         <div>
           <div>
-            <h6 className="middle-underline d-inline">
-              Elevate CfP
-            </h6>
+            <h6 className="middle-underline d-inline">Elevate CfP</h6>
           </div>
           <p className="mt-2">
-            MixSpace is an internet company that is a cloud computing platform with a focus on serverless
-            computing applications.
+            This project contains code for the CfP portal for the Elevate
+            conference by Pattarai.
           </p>
           <h6 className="mt-4">Releases</h6>
           <div id="tech-badges">
             <ul className="nav">
               <li className="nav-item">
-                <Link passHref href={"https://v1.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v1
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v2.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v2
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v3.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v3
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v4.mixspace.xyz/"}>
+                <Link passHref href={"https://elevate.pattarai.in/"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
@@ -73,7 +41,7 @@ export default function ElevateCfP() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v5.mixspace.xyz/"}>
+                <Link passHref href={"https://elevate.pattarai.in//"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
@@ -89,24 +57,15 @@ export default function ElevateCfP() {
             <span className="badge rounded-pill bg-green">Next.js</span>
             <span className="badge rounded-pill bg-green">React</span>
             <span className="badge rounded-pill bg-green">PHP</span>
-            <span className="badge rounded-pill bg-green">Python</span>
             <span className="badge rounded-pill bg-green">Apache</span>
-            <span className="badge rounded-pill bg-green">Nginx</span>
-            <span className="badge rounded-pill bg-green">Shell</span>
             <span className="badge rounded-pill bg-green">Node.js</span>
-            <span className="badge rounded-pill bg-green">jQuery</span>
             <span className="badge rounded-pill bg-green">Bootstrap</span>
             <span className="badge rounded-pill bg-green">MariaDB</span>
-            <span className="badge rounded-pill bg-green">MongoDB</span>
-            <span className="badge rounded-pill bg-green">Firestore</span>
             <span className="badge rounded-pill bg-green">AJAX</span>
+            <span className="badge rounded-pill bg-green">Axios</span>
             <span className="badge rounded-pill bg-green">SWR</span>
             <span className="badge rounded-pill bg-green">jQuery</span>
-            <span className="badge rounded-pill bg-green">Docker</span>
-            <span className="badge rounded-pill bg-green">Linux</span>
-            <span className="badge rounded-pill bg-green">ESXi</span>
             <span className="badge rounded-pill bg-green">Git</span>
-            <span className="badge rounded-pill bg-green">OpenStack</span>
             <span className="badge rounded-pill bg-green">Cloudflare</span>
             <span className="badge rounded-pill bg-green">Vercel</span>
           </div>

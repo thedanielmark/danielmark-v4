@@ -14,6 +14,7 @@ import XStackHub from "./XStackHub";
 import XStackStatus from "./XStackStatus";
 import ElevateLanding from "./ElevateLanding";
 import ElevateCfP from "./ElevateCfP";
+import JailBird from "./JailBird";
 import ClementineOS from "./ClementineOS";
 import Cortex from "./Cortex";
 import StretchInc from "./StretchInc";
@@ -42,7 +43,6 @@ import YBSS from "./YBSS";
 import GGBK from "./GGBK";
 import Skyline from "./Skyline";
 
-
 class MainContent extends React.Component {
   render() {
     return (
@@ -52,7 +52,17 @@ class MainContent extends React.Component {
           <h5 className="d-block text-grey">
             Here are some of the projects I've worked on.
           </h5>
-          <div>
+          <div className="d-flex mt-3">
+            <input
+              type="text"
+              className="search-bar"
+              placeholder="Search for a project"
+            />
+            <button className="search-icon">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+          <div id="projects">
             <DM></DM>
             <MixSpaceCloudPlatform></MixSpaceCloudPlatform>
             <MXSSO></MXSSO>
@@ -64,6 +74,7 @@ class MainContent extends React.Component {
             <XStackPlatform></XStackPlatform>
             <XStackHub></XStackHub>
             <XStackStatus></XStackStatus>
+            <JailBird></JailBird>
             <ElevateLanding></ElevateLanding>
             <ElevateCfP></ElevateCfP>
             <ClementineOS></ClementineOS>

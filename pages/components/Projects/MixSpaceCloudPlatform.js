@@ -26,59 +26,172 @@ export default function MixSpaceCloudPlatform() {
             </h6>
           </div>
           <p className="mt-2">
-            MixSpace is an internet company that is a cloud computing platform with a focus on serverless
-            computing applications.
+            MixSpace is a cloud computing platform with a focus on serverless
+            computing applications and JAMStack hosting.
           </p>
           <h6 className="mt-4">Releases</h6>
           <div id="tech-badges">
             <ul className="nav">
               <li className="nav-item">
-                <Link passHref href={"https://v1.mixspace.xyz/"}>
+                <a
+                  className="nav-link grey-to-white"
+                  style={{ paddingLeft: "0px" }}
+                >
+                  v1
+                </a>
+              </li>
+              <li className="nav-item">
+                <Link
+                  passHref
+                  href={"https://github.com/thedanielmark/calculator"}
+                >
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
                   >
-                    v1
+                    <i class="fab fa-github"></i>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v2.mixspace.xyz/"}>
+                <Link passHref href={"https://v1.thedanielmark.com"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
                   >
-                    v2
+                    <i class="fas fa-globe-asia"></i>
+                  </a>
+                </Link>
+              </li>
+            </ul>
+            <ul className="nav">
+              <li className="nav-item">
+                <a
+                  className="nav-link grey-to-white"
+                  style={{ paddingLeft: "0px" }}
+                >
+                  v2
+                </a>
+              </li>
+              <li className="nav-item">
+                <Link
+                  passHref
+                  href={"https://github.com/thedanielmark/calculator"}
+                >
+                  <a
+                    className="nav-link grey-to-white"
+                    style={{ paddingLeft: "0px" }}
+                  >
+                    <i class="fab fa-github"></i>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v3.mixspace.xyz/"}>
+                <Link passHref href={"https://v2.thedanielmark.com"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
                   >
-                    v3
+                    <i class="fas fa-globe-asia"></i>
+                  </a>
+                </Link>
+              </li>
+            </ul>
+            <ul className="nav">
+              <li className="nav-item">
+                <a
+                  className="nav-link grey-to-white"
+                  style={{ paddingLeft: "0px" }}
+                >
+                  v3
+                </a>
+              </li>
+              <li className="nav-item">
+                <Link
+                  passHref
+                  href={"https://github.com/thedanielmark/calculator"}
+                >
+                  <a
+                    className="nav-link grey-to-white"
+                    style={{ paddingLeft: "0px" }}
+                  >
+                    <i class="fab fa-github"></i>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v4.mixspace.xyz/"}>
+                <Link passHref href={"https://v3.thedanielmark.com"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
                   >
-                    v4
+                    <i class="fas fa-globe-asia"></i>
+                  </a>
+                </Link>
+              </li>
+            </ul>
+            <ul className="nav">
+              <li className="nav-item">
+                <a
+                  className="nav-link grey-to-white"
+                  style={{ paddingLeft: "0px" }}
+                >
+                  v4
+                </a>
+              </li>
+              <li className="nav-item">
+                <Link
+                  passHref
+                  href={"https://github.com/thedanielmark/calculator"}
+                >
+                  <a
+                    className="nav-link grey-to-white"
+                    style={{ paddingLeft: "0px" }}
+                  >
+                    <i class="fab fa-github"></i>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v5.mixspace.xyz/"}>
+                <Link passHref href={"https://v4.thedanielmark.com"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
                   >
-                    v5 (latest)
+                    <i class="fas fa-globe-asia"></i>
+                  </a>
+                </Link>
+              </li>
+            </ul>
+            <ul className="nav">
+              <li className="nav-item">
+                <a
+                  className="nav-link grey-to-white"
+                  style={{ paddingLeft: "0px" }}
+                >
+                  v5
+                </a>
+              </li>
+              <li className="nav-item">
+                <Link
+                  passHref
+                  href={"https://github.com/thedanielmark/calculator"}
+                >
+                  <a
+                    className="nav-link grey-to-white"
+                    style={{ paddingLeft: "0px" }}
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link passHref href={"https://v5.thedanielmark.com"}>
+                  <a
+                    className="nav-link grey-to-white"
+                    style={{ paddingLeft: "0px" }}
+                  >
+                    <i class="fas fa-globe-asia"></i>
                   </a>
                 </Link>
               </li>
@@ -94,7 +207,6 @@ export default function MixSpaceCloudPlatform() {
             <span className="badge rounded-pill bg-green">Nginx</span>
             <span className="badge rounded-pill bg-green">Shell</span>
             <span className="badge rounded-pill bg-green">Node.js</span>
-            <span className="badge rounded-pill bg-green">jQuery</span>
             <span className="badge rounded-pill bg-green">Bootstrap</span>
             <span className="badge rounded-pill bg-green">MariaDB</span>
             <span className="badge rounded-pill bg-green">MongoDB</span>

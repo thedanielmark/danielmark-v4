@@ -70,7 +70,7 @@ a {
 }
 
 .bg-green {
-  background-color: #51515C;
+  background-color: #51515c;
 }
 
 #tech-badges > span {
@@ -80,4 +80,27 @@ a {
 
 #tech-badges > ul > li > a {
   padding-top: 0px;
+}
+
+.search-bar {
+  background-color: #0f1315;
+  border: none;
+  padding: 10px 7px 10px 15px;
+  outline: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.search-icon {
+  background-color: #0f1315;
+  border: none;
+  padding: 10px 15px 10px 8px;
+  outline: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+  align-self: center;
+  height: 100%;
 }

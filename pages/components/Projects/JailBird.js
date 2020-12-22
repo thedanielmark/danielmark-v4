@@ -26,8 +26,7 @@ export default function JailBird() {
             </h6>
           </div>
           <p className="mt-2">
-            MixSpace is an internet company that is a cloud computing platform with a focus on serverless
-            computing applications.
+            JailBird was the user dashboard for 
           </p>
           <h6 className="mt-4">Releases</h6>
           <div id="tech-badges">

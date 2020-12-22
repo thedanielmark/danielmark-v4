@@ -26,14 +26,15 @@ export default function XStackPlatform() {
             </h6>
           </div>
           <p className="mt-2">
-            MixSpace is an internet company that is a cloud computing platform
-            with a focus on serverless computing applications.
+            The xStack Platform is an enterprise resource planning software for
+            educational instituions comprising of various modules including the
+            IoT domain.
           </p>
           <h6 className="mt-4">Releases</h6>
           <div id="tech-badges">
             <ul className="nav">
               <li className="nav-item">
-                <Link passHref href={"https://v1.mixspace.xyz/"}>
+                <Link passHref href={"https://xstack.azurewebsites.net/"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
@@ -43,7 +44,7 @@ export default function XStackPlatform() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v2.mixspace.xyz/"}>
+                <Link passHref href={"https://xstack.azurewebsites.net/"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
@@ -53,32 +54,12 @@ export default function XStackPlatform() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v3.mixspace.xyz/"}>
+                <Link passHref href={"https://xstackhub.azurewebsites.net/"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
                   >
-                    v3
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v4.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v4
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v5.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v5 (latest)
+                    v3 (latest)
                   </a>
                 </Link>
               </li>
@@ -86,10 +67,10 @@ export default function XStackPlatform() {
           </div>
           <h6 className="mt-4">Technologies</h6>
           <div id="tech-badges">
-            <span className="badge rounded-pill bg-green">Next.js</span>
-            <span className="badge rounded-pill bg-green">React</span>
             <span className="badge rounded-pill bg-green">PHP</span>
             <span className="badge rounded-pill bg-green">Python</span>
+            <span className="badge rounded-pill bg-green">Dart</span>
+            <span className="badge rounded-pill bg-green">Flutter</span>
             <span className="badge rounded-pill bg-green">Apache</span>
             <span className="badge rounded-pill bg-green">Nginx</span>
             <span className="badge rounded-pill bg-green">Shell</span>
@@ -100,11 +81,9 @@ export default function XStackPlatform() {
             <span className="badge rounded-pill bg-green">MongoDB</span>
             <span className="badge rounded-pill bg-green">Firestore</span>
             <span className="badge rounded-pill bg-green">AJAX</span>
-            <span className="badge rounded-pill bg-green">SWR</span>
             <span className="badge rounded-pill bg-green">jQuery</span>
             <span className="badge rounded-pill bg-green">Docker</span>
             <span className="badge rounded-pill bg-green">Linux</span>
-            <span className="badge rounded-pill bg-green">ESXi</span>
             <span className="badge rounded-pill bg-green">Git</span>
             <span className="badge rounded-pill bg-green">OpenStack</span>
             <span className="badge rounded-pill bg-green">Cloudflare</span>

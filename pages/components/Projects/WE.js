@@ -26,14 +26,22 @@ export default function WE() {
             </h6>
           </div>
           <p className="mt-2">
-            MixSpace is an internet company that is a cloud computing platform
-            with a focus on serverless computing applications.
+            WE! is a personal safety app heavily inspired by Uber. It logged
+            user's locations in a spatial database and with the press of a
+            button, could send out an SMS notification to the 100 nearest people
+            calling for help when a user is under duress.
           </p>
+          <ul className="text-grey">
+            <li>Proxy calling the victim via Exotel owned virtual phone.</li>
+            <li>Real time victim status notifications.</li>
+            <li>In-app evidence upload and tracking portal.</li>
+            <li>Automated SMS triggers.</li>
+          </ul>
           <h6 className="mt-4">Releases</h6>
           <div id="tech-badges">
             <ul className="nav">
               <li className="nav-item">
-                <Link passHref href={"https://v1.mixspace.xyz/"}>
+                <Link passHref href={"https://v4.mixspace.xyz/"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
@@ -43,42 +51,12 @@ export default function WE() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v2.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v2
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v3.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v3
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link passHref href={"https://v4.mixspace.xyz/"}>
-                  <a
-                    className="nav-link grey-to-white"
-                    style={{ paddingLeft: "0px" }}
-                  >
-                    v4
-                  </a>
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link passHref href={"https://v5.mixspace.xyz/"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
                   >
-                    v5 (latest)
+                    v2 (latest)
                   </a>
                 </Link>
               </li>
@@ -86,29 +64,19 @@ export default function WE() {
           </div>
           <h6 className="mt-4">Technologies</h6>
           <div id="tech-badges">
-            <span className="badge rounded-pill bg-green">Next.js</span>
-            <span className="badge rounded-pill bg-green">React</span>
+            <span className="badge rounded-pill bg-green">Cordova</span>
             <span className="badge rounded-pill bg-green">PHP</span>
-            <span className="badge rounded-pill bg-green">Python</span>
             <span className="badge rounded-pill bg-green">Apache</span>
             <span className="badge rounded-pill bg-green">Nginx</span>
-            <span className="badge rounded-pill bg-green">Shell</span>
-            <span className="badge rounded-pill bg-green">Node.js</span>
-            <span className="badge rounded-pill bg-green">jQuery</span>
             <span className="badge rounded-pill bg-green">Bootstrap</span>
             <span className="badge rounded-pill bg-green">MariaDB</span>
             <span className="badge rounded-pill bg-green">MongoDB</span>
             <span className="badge rounded-pill bg-green">Firestore</span>
             <span className="badge rounded-pill bg-green">AJAX</span>
-            <span className="badge rounded-pill bg-green">SWR</span>
             <span className="badge rounded-pill bg-green">jQuery</span>
-            <span className="badge rounded-pill bg-green">Docker</span>
             <span className="badge rounded-pill bg-green">Linux</span>
-            <span className="badge rounded-pill bg-green">ESXi</span>
             <span className="badge rounded-pill bg-green">Git</span>
-            <span className="badge rounded-pill bg-green">OpenStack</span>
             <span className="badge rounded-pill bg-green">Cloudflare</span>
-            <span className="badge rounded-pill bg-green">Vercel</span>
           </div>
         </div>
       </motion.div>
