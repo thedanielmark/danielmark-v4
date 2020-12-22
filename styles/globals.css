@@ -89,7 +89,7 @@ a {
   outline: none;
   color: #ffffff;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 5px 0px 0px 5px;
   width: 100%;
 }
 
@@ -100,7 +100,7 @@ a {
   outline: none;
   color: #ffffff;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 0px 5px 5px 0px;
   align-self: center;
   height: 100%;
 }
