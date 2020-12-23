@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function Layout(props) {
@@ -71,50 +72,46 @@ export default function Layout(props) {
             <hr className="mt-4" />
             <ul className="nav ml-0">
               <li className="nav-item">
-                <a
-                  className="nav-link grey-to-white"
-                  target="top"
-                  href="https://github.com/thedanielmark"
-                  style={{ paddingLeft: "0px" }}
-                >
-                  <i className="fab fa-github" />
-                </a>
+                <Link href="https://github.com/thedanielmark" passHref>
+                  <a
+                    className="nav-link grey-to-white"
+                    target="top"
+                    style={{ paddingLeft: "0px" }}
+                  >
+                    <i className="fab fa-github" />
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link grey-to-white"
-                  target="top"
-                  href="https://linkedin.com/in/thedanielmark"
-                >
-                  <i className="fab fa-linkedin-in" />
-                </a>
+                <Link href="https://linkedin.com/in/thedanielmark" passHref>
+                  <a className="nav-link grey-to-white" target="top">
+                    <i className="fab fa-linkedin-in" />
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link grey-to-white"
-                  target="top"
-                  href="https://twitter.com/the_danielmark"
-                >
-                  <i className="fab fa-twitter" />
-                </a>
+                <Link href="https://twitter.com/the_danielmark" passHref>
+                  <a className="nav-link grey-to-white" target="top">
+                    <i className="fab fa-twitter" />
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link grey-to-white"
-                  target="top"
+                <Link
                   href="https://www.youtube.com/channel/UCRO3ipEkZHDnFn5mfCm2hzA"
+                  passHref
                 >
-                  <i className="fab fa-youtube" />
-                </a>
+                  <a className="nav-link grey-to-white" target="top">
+                    <i className="fab fa-youtube" />
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link grey-to-white"
-                  target="top"
-                  href="mailto:hello@thedanielmark.com"
-                >
-                  <i className="fas fa-envelope" />
-                </a>
+                <Link href="mailto:hello@thedanielmark.com" passHref>
+                  <a className="nav-link grey-to-white" target="top">
+                    <i className="fas fa-envelope" />
+                  </a>
+                </Link>
               </li>
             </ul>
           </motion.div>
