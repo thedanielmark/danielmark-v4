@@ -11,28 +11,26 @@ export default function Home() {
       <div>
         <ul className="nav mt-3">
           <li className="nav-item">
-            <Link href="/work">
+            <Link href="/about">
               <a
                 className="nav-link grey-to-white"
                 style={{ paddingLeft: "0px" }}
               >
-                <span className="middle-underline">Work</span>
+                <span className="middle-underline">About</span>
               </a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/personal">
+            <Link href="/projects">
               <a className="nav-link grey-to-white">
-                <span className="middle-underline">Personal</span>
+                <span className="middle-underline">Projects</span>
               </a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/other-stuff">
+            <Link href="/misc">
               <a className="nav-link grey-to-white">
-                <span className="middle-underline">
-                  Misc
-                </span>
+                <span className="middle-underline">Misc</span>
               </a>
             </Link>
           </li>

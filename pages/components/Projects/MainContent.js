@@ -1,4 +1,5 @@
 import React from "react";
+import motion from "framer-motion";
 
 // Import all project components
 import DM from "./DM";
@@ -45,6 +46,19 @@ import Skyline from "./Skyline";
 
 class MainContent extends React.Component {
   render() {
+    const easing = [0.6, -0.05, 0.01, 0.99];
+    const fadeIn1 = {
+      initial: {
+        opacity: 0,
+      },
+      animate: {
+        opacity: 1,
+        transition: {
+          duration: 1,
+          ease: easing,
+        },
+      },
+    };
     return (
       <div>
         <div>
@@ -52,7 +66,7 @@ class MainContent extends React.Component {
           <h5 className="d-block text-grey">
             Here are some of the projects I've worked on.
           </h5>
-          <div className="d-flex mt-3">
+          <div className="d-flex mt-3 d-none">
             <input
               type="text"
               className="search-bar"
