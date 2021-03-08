@@ -1,5 +1,6 @@
 import React from "react";
-import motion from "framer-motion";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
 // Import all project components
 import DM from "./DM";
@@ -62,7 +63,15 @@ class MainContent extends React.Component {
     return (
       <div>
         <div>
-          <h4 className="d-block">Projects</h4>
+          <div className="d-flex justify-content-between align-items-center">
+            <h4>Projects</h4>
+            <Link href={"/"} passHref>
+              <a className="grey-to-white text-decoration-none d-flex align-items-baseline">
+                <h6>Home</h6>
+                <i className="fas fa-chevron-right ms-1"></i>
+              </a>
+            </Link>
+          </div>
           <h5 className="d-block text-grey">
             Here are some of the projects I've worked on.
           </h5>
@@ -73,11 +82,15 @@ class MainContent extends React.Component {
               placeholder="Search for a project"
             />
             <button className="search-icon">
-              <i class="fas fa-search"></i>
+              <i className="fas fa-search"></i>
             </button>
           </div>
           <div id="projects">
-            <DM></DM>
+            <motion.div exit="exit" initial="initial" animate="animate">
+              <motion.div variants={fadeIn1}>
+                <DM></DM>
+              </motion.div>
+            </motion.div>
             <MixSpaceCloudPlatform></MixSpaceCloudPlatform>
             <MXSSO></MXSSO>
             <MXOut></MXOut>
