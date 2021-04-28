@@ -31,8 +31,8 @@ export default function Calc() {
             A simple cross-platform calculator app built using Dart. Only the
             Android platform was targeted by this project.
           </p>
-          <h6 className="mt-4 mb-3">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4 mb-3">Releases</h6> */}
+          <div className="d-none">
             <ul className="nav">
               <li className="nav-item">
                 <a className="nav-link grey-to-white" style={{ paddingLeft: "0px" }}>v1</a>

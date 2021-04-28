@@ -41,8 +41,8 @@ export default function WE() {
             <li>In-app evidence upload and tracking portal.</li>
             <li>Automated SMS triggers.</li>
           </ul>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <ul className="nav">
               <li className="nav-item">
                 <Link passHref href={"https://v4.mixspace.xyz/"}>

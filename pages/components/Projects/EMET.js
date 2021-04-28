@@ -34,8 +34,8 @@ export default function EMET() {
             data from various sources. The data stored can be accessed via REST
             APIs or a web app running a speech recognition engine.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={""}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

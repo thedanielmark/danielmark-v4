@@ -34,8 +34,8 @@ export default function MXOut() {
             software primarily powers all outgoing mails for MixSpace as well as
             other projects.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <ul className="nav">
               <li className="nav-item">
                 <Link passHref href={"https://v5.mixspace.xyz/"}>

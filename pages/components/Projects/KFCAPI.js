@@ -33,8 +33,8 @@ export default function KFCAPI() {
             PHP based REST API layer that handles authentication, authorization
             and all other database operations for KuTumba FC.
           </p>
-          <h6 className="text-grey mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="text-grey mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://api.kutumbafc.com/"}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

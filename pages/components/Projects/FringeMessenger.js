@@ -35,8 +35,8 @@ export default function FringeMessenger() {
             a Quantum computer. Fringe runs on all major smartphone and desktop
             operating systems.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={""}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

@@ -33,8 +33,8 @@ export default function MaceyWiki() {
             Blog on molecular chemistry powered by the WIkipedia API to
             dynamically generate page content.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://macey.thedanielmark.com/"}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

@@ -32,8 +32,8 @@ export default function FringeWebsite() {
           <p className="mt-2">
             Fully-responsive app showcase website for Fringe Messenger.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://fringe.thedanielmark.com/"}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

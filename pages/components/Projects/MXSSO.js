@@ -33,8 +33,8 @@ export default function MXSSO() {
             Single Sign-on technology that powers most of my enterprise and
             personal projects.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <ul className="nav">
               <li className="nav-item">
                 <Link passHref href={"https://sso.mixspace.xyz/"}>

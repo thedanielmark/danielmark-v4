@@ -31,8 +31,8 @@ export default function RADAR() {
             could detect objects in front of it and project the signals to a
             graph on a computer running a Processing GUI.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://ghostdetector.thedanielmark.com/"}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

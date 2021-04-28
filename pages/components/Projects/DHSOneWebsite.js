@@ -31,8 +31,8 @@ export default function DHSOneWebsite() {
             Blog like website exlaining the idea behind the DHS One
             cryptosystem.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://one.thedanielmark.com/"}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

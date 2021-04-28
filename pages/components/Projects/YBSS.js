@@ -31,8 +31,8 @@ export default function YBSS() {
             Simple static Bootstrap based website for a non-governmental
             organization based in Andhra Pradesh, India.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <ul className="nav">
               <li className="nav-item">
                 <Link passHref href={""}>

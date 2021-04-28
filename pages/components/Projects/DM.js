@@ -31,8 +31,8 @@ export default function DM() {
             Bunch of personal websites and developer portfolio sites for myself,
             ranging from the maximal to super minimal design philosophy.
             </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <ul className="nav">
               <li className="nav-item">
                 <a

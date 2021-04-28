@@ -29,8 +29,8 @@ export default function DHSOne() {
             system I designed and built. Fringe Messenger and the BlackBox
             project are based off of DHS One.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://one.thedanielmark.com/"}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

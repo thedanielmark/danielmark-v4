@@ -34,8 +34,8 @@ export default function XStackStatus() {
             in real time. The dashboard also had an API to stream the overall
             availability of the platform to 3rd party sites.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <ul className="nav">
               <li className="nav-item">
                 <Link passHref href={"https://licet.xstack.xyz/"}>

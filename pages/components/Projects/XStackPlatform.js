@@ -34,8 +34,8 @@ export default function XStackPlatform() {
             educational instituions comprising of various modules including the
             IoT domain.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <ul className="nav">
               <li className="nav-item">
                 <Link passHref href={"https://xstack.azurewebsites.net/"}>

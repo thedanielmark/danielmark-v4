@@ -34,8 +34,8 @@ export default function Credity() {
             your current rate of expenditure and compare it against previous
             month's expenditures in the form of a graph.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={""}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

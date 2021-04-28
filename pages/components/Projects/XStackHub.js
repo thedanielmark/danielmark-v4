@@ -35,8 +35,8 @@ export default function XStackHub() {
             terminal were also incorporated for continuous visual feedback while
             running deployment builds.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://v5.mixspace.xyz/"}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

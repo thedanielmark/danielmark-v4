@@ -32,8 +32,8 @@ export default function Flair2k19() {
             symposium of the Information Technology programme of Loyola-ICAM
             College of Engineering and Technology.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://flair2k19/"}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

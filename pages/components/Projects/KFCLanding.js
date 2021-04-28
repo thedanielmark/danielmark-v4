@@ -32,8 +32,8 @@ export default function KFCLanding() {
           <p className="mt-2">
             Landing pages with dynamic content from the blog built with React.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://kutumbafc.com/"}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

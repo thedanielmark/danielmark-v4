@@ -31,8 +31,8 @@ export default function NowMyWatchBegins() {
             Website where the first person to crack a complex program and enter the code
             and his/her name would have their name appear on the winner screen.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://debugging.thedanielmark.com/"}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

@@ -31,8 +31,8 @@ export default function SIH() {
             Website to showcase an inventory management system designed for the
             Airports Authority of India (AAI).
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://sih.thedanielmark.com/"}>
               <a className="grey-to-white text-decoration-none">v1 (latest)</a>
             </Link>

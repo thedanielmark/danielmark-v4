@@ -35,8 +35,8 @@ export default function BlackBoxProject() {
             BlackBox is the successor to DHS One and is currently used to run
             Fringe Messenger.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://blackbox.thedanielmark.com/"}>
               <a
                 className="grey-to-white text-decoration-none"

@@ -33,8 +33,8 @@ export default function MixSpaceCloudPlatform() {
             MixSpace is a cloud computing platform with a focus on serverless
             computing applications and JAMStack hosting.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <ul className="nav">
               <li className="nav-item">
                 <a
@@ -58,7 +58,7 @@ export default function MixSpaceCloudPlatform() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v1.thedanielmark.com"}>
+                <Link passHref href={"https://mixspace.thedanielmark.com/"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
