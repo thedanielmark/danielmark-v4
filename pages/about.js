@@ -1,12 +1,12 @@
-import Layout from "./layout";
+import Layout from "./components/layout";
 
 // Components
-import MainContent from "./components/Index/MainContent";
+import MainContent from "./components/About/MainContent";
 
 export default function App() {
     return (
         <Layout>
-            About me
+            <MainContent></MainContent>
         </Layout>
     );
 }
