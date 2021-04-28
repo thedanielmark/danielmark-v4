@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Chip from '@material-ui/core/Chip';
 
 export default function RADAR() {
   const easing = [0.6, -0.05, 0.01, 0.99];
@@ -37,9 +38,9 @@ export default function RADAR() {
             </Link>
           </div>
           <h6 className="mt-4">Technologies</h6>
-          <div id="tech-badges">
-            <span className="badge rounded-pill bg-green">Arduino</span>
-            <span className="badge rounded-pill bg-green">Processing</span>
+          <div class="tech-badges">
+            <Chip size="small" label="Arduino" />
+            <Chip size="small" label="Processing" />
           </div>
         </div>
       </motion.div>

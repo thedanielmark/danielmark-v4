@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Chip from '@material-ui/core/Chip';
 
 export default function TheArchitectAkash() {
   const easing = [0.6, -0.05, 0.01, 0.99];
@@ -15,6 +16,9 @@ export default function TheArchitectAkash() {
       },
     },
   };
+
+  const tech = ["React", "PHP", "Bootstrap", "MariaDB", "AJAX", "jQuery", "Git", "Cloudflare", "Vercel"];
+
   return (
     <motion.div exit="exit" initial="initial" animate="animate">
       <motion.div variants={fadeIn}>
@@ -36,16 +40,12 @@ export default function TheArchitectAkash() {
             </Link>
           </div>
           <h6 className="mt-4">Technologies</h6>
-          <div id="tech-badges">
-            <span className="badge rounded-pill bg-green">React</span>
-            <span className="badge rounded-pill bg-green">PHP</span>
-            <span className="badge rounded-pill bg-green">Bootstrap</span>
-            <span className="badge rounded-pill bg-green">MariaDB</span>
-            <span className="badge rounded-pill bg-green">AJAX</span>
-            <span className="badge rounded-pill bg-green">jQuery</span>
-            <span className="badge rounded-pill bg-green">Git</span>
-            <span className="badge rounded-pill bg-green">Cloudflare</span>
-            <span className="badge rounded-pill bg-green">Vercel</span>
+          <div class="tech-badges">
+            {tech.map((chip) => {
+              return (
+                <Chip size="small" key={chip} label={chip} />
+              );
+            })}
           </div>
         </div>
       </motion.div>

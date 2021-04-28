@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Chip from '@material-ui/core/Chip';
 
 export default function BFS() {
   const easing = [0.6, -0.05, 0.01, 0.99];
@@ -15,6 +16,9 @@ export default function BFS() {
       },
     },
   };
+
+  const tech = ["Java", "C++", "Shell", "Unix"];
+
   return (
     <motion.div exit="exit" initial="initial" animate="animate">
       <motion.div variants={fadeIn}>
@@ -40,11 +44,12 @@ export default function BFS() {
             </Link>
           </div>
           <h6 className="mt-4">Technologies</h6>
-          <div id="tech-badges">
-            <span className="badge rounded-pill bg-green">Java</span>
-            <span className="badge rounded-pill bg-green">C++</span>
-            <span className="badge rounded-pill bg-green">Shell</span>
-            <span className="badge rounded-pill bg-green">Unix</span>
+          <div class="tech-badges">
+            {tech.map((chip) => {
+              return (
+                <Chip size="small" key={chip} label={chip} />
+              );
+            })}
           </div>
         </div>
       </motion.div>

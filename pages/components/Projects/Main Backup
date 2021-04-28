@@ -97,3 +97,16 @@ class MainContent extends React.Component {
 }
 
 export default class MainContent;
+
+
+import Chip from '@material-ui/core/Chip';
+
+const tech = ["Next.js", "React", "PHP", "Python", "Apache", "Nginx", "Shell", "Node.js", "Axios", "Bootstrap", "MariaDB", "MongoDB", "Firestore", "AJAX", "SWR", "jQuery", "Docker", "Linux", "ESXi", "Git", "OpenStack", "Cloudflare", "Vercel"];
+
+<div class="tech-badges">
+  {tech.map((chip) => {
+    return (
+      <Chip size="small" key={chip} label={chip} />
+    );
+  })}
+</div>

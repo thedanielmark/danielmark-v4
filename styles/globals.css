@@ -73,14 +73,14 @@ a {
   background-color: #51515c;
 }
 
-#tech-badges > span {
+.tech-badges > div {
   margin-right: 5px;
   margin-top: 10px;
 }
 
-#tech-badges > ul > li > a {
-  padding-top: 0px;
-}
+/* .tech-badges > div > span {
+  font-weight: bold;
+} */
 
 .search-bar {
   background-color: #0f1315;

@@ -9,7 +9,7 @@ import MXSSO from "./MXSSO";
 import MXOut from "./MXOut";
 import KuTumbaFCLanding from "./KFCLanding";
 import KuTumbaFCEcommerce from "./KFCEcom";
-import KuTumbaFCCMS from "./KFCCMS";
+// import KuTumbaFCCMS from "./KFCCMS";
 import KuTumbaFCRESTAPI from "./KFCAPI";
 import XStackPlatform from "./XStackPlatform";
 import XStackHub from "./XStackHub";
@@ -67,8 +67,7 @@ class MainContent extends React.Component {
             <h4>Projects</h4>
             <Link href={"/"} passHref>
               <a className="grey-to-white text-decoration-none d-flex align-items-baseline">
-                <h6>Home</h6>
-                <i className="fas fa-chevron-right ms-1"></i>
+                <i class="far fa-times-circle h1"></i>
               </a>
             </Link>
           </div>
@@ -92,7 +91,7 @@ class MainContent extends React.Component {
             <MXOut></MXOut>
             <KuTumbaFCLanding></KuTumbaFCLanding>
             <KuTumbaFCEcommerce></KuTumbaFCEcommerce>
-            <KuTumbaFCCMS></KuTumbaFCCMS>
+            {/* <KuTumbaFCCMS></KuTumbaFCCMS> */}
             <KuTumbaFCRESTAPI></KuTumbaFCRESTAPI>
             <XStackPlatform></XStackPlatform>
             <XStackHub></XStackHub>

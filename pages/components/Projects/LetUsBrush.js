@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Chip from '@material-ui/core/Chip';
 
 export default function LetUsBrush() {
   const easing = [0.6, -0.05, 0.01, 0.99];
@@ -34,9 +35,9 @@ export default function LetUsBrush() {
             </Link>
           </div>
           <h6 className="mt-4">Technologies</h6>
-          <div id="tech-badges">
-            <span className="badge rounded-pill bg-green">Cordova</span>
-            <span className="badge rounded-pill bg-green">Swiper</span>
+          <div class="tech-badges">
+            <Chip size="small" label="Cordova" />
+            <Chip size="small" label="Swiper" />
           </div>
         </div>
       </motion.div>
