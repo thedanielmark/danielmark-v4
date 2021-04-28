@@ -28,9 +28,9 @@ export default function Home() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/misc">
+            <Link href="/contact">
               <a className="nav-link grey-to-white">
-                <span className="middle-underline">Misc</span>
+                <span className="middle-underline">Contact</span>
               </a>
             </Link>
           </li>

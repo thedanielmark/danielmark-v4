@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import Link from "next/link";
 
 // Import all project components
@@ -67,7 +66,7 @@ class MainContent extends React.Component {
             <h4>Projects</h4>
             <Link href={"/"} passHref>
               <a className="grey-to-white text-decoration-none d-flex align-items-baseline">
-                <i class="far fa-times-circle h1"></i>
+                <i className="far fa-times-circle h1"></i>
               </a>
             </Link>
           </div>
