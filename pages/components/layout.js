@@ -19,43 +19,25 @@ export default function Layout(props) {
   return (
     <div>
       <Head>
-        <title>Daniel Mark | Personal Website and Developer Portfolio</title>
+        <>
+          {/* Primary Meta Tags */}
+          <title>Daniel Mark | Developer Portfolio &amp; Personal Website</title>
+          <meta name="title" content="Daniel Mark | Developer Portfolio &amp; Personal Website" />
+          <meta name="description" content="Hi! I'm Danny, a software engineer based in Chennai, India. I specialize in enterprise systems programming, web development and cross-platform app development. I also own a cloud computing service named MixSpace Internet Services." />
+          {/* Open Graph / Facebook */}
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://thedanielmark.com/" />
+          <meta name="title" property="og:title" content="Daniel Mark | Developer Portfolio &amp; Personal Website" />
+          <meta name="description" property="og:description" content="Hi! I'm Danny, a software engineer based in Chennai, India. I specialize in enterprise systems programming, web development and cross-platform app development. I also own a cloud computing service named MixSpace Internet Services." />
+          <meta name="image" property="og:image" content="https://thedanielmark.com/images/capture.png" />
+          {/* Twitter */}
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://thedanielmark.com/" />
+          <meta property="twitter:title" content="Daniel Mark | Developer Portfolio &amp; Personal Website" />
+          <meta property="twitter:description" content="Hi! I'm Danny, a software engineer based in Chennai, India. I specialize in enterprise systems programming, web development and cross-platform app development. I also own a cloud computing service named MixSpace Internet Services." />
+          <meta property="twitter:image" content="https://v3.thedanielmark.com/images/capture.png" />
+        </>
 
-        {/* <!-- Primary Meta Tags --> */}
-        <meta
-          name="title"
-          content="Cloud Computing Services | MixSpace Cloud Platform"
-        />
-        <meta
-          name="description"
-          content="Scalable compute instances, cloud storage, serverless compute environments, database hosting. Free trial available for new users. Refer a friend and earn up to 200 rupees in credit."
-        />
-
-        {/* <!-- Open Graph / Facebook --> */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://mixspace.xyz/" />
-        <meta
-          property="og:title"
-          content="Cloud Computing Services | MixSpace Cloud Platform"
-        />
-        <meta
-          property="og:description"
-          content="Scalable compute instances, cloud storage, serverless compute environments, database hosting. Free trial available for new users. Refer a friend and earn up to 200 rupees in credit."
-        />
-        <meta property="og:image" content="../images/website-card.png" />
-
-        {/* <!-- Twitter --> */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://mixspace.xyz/" />
-        <meta
-          property="twitter:title"
-          content="Cloud Computing Services | MixSpace Cloud Platform"
-        />
-        <meta
-          property="twitter:description"
-          content="Scalable compute instances, cloud storage, serverless compute environments, database hosting. Free trial available for new users. Refer a friend and earn up to 200 rupees in credit."
-        />
-        <meta property="twitter:image" content="../images/website-card.png" />
       </Head>
       <div
         className="d-flex align-items-center layout justify-content-center"
