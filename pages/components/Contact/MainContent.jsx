@@ -148,7 +148,7 @@ export default function App() {
       </div>
       <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
         <Alert onClose={handleClose} severity="success">
-          Note created successfully!
+          I received your message! 🙂
         </Alert>
       </Snackbar>
     </React.Fragment>
