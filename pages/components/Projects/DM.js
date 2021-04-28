@@ -26,7 +26,7 @@ export default function DM() {
           <p className="mt-2">
             Bunch of personal websites and developer portfolio sites for myself,
             ranging from the maximal to super minimal design philosophy.
-          </p>
+            </p>
           <h6 className="mt-4">Releases</h6>
           <div id="tech-badges">
             <ul className="nav">
@@ -41,7 +41,7 @@ export default function DM() {
               <li className="nav-item">
                 <Link
                   passHref
-                  href={"https://github.com/thedanielmark/calculator"}
+                  href="https://github.com/thedanielmark/dannyWebsiteNew"
                 >
                   <a
                     className="nav-link grey-to-white"

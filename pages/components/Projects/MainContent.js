@@ -15,10 +15,10 @@ import XStackPlatform from "./XStackPlatform";
 import XStackHub from "./XStackHub";
 import XStackStatus from "./XStackStatus";
 import ElevateLanding from "./ElevateLanding";
-import ElevateCfP from "./ElevateCfP";
+// import ElevateCfP from "./ElevateCfP";
 import JailBird from "./JailBird";
-import ClementineOS from "./ClementineOS";
-import Cortex from "./Cortex";
+// import ClementineOS from "./ClementineOS";
+// import Cortex from "./Cortex";
 import StretchInc from "./StretchInc";
 import EMET from "./EMET";
 import PayrollSystem from "./PayrollSystem";
@@ -86,11 +86,7 @@ class MainContent extends React.Component {
             </button>
           </div>
           <div id="projects">
-            <motion.div exit="exit" initial="initial" animate="animate">
-              <motion.div variants={fadeIn1}>
-                <DM></DM>
-              </motion.div>
-            </motion.div>
+            <DM></DM>
             <MixSpaceCloudPlatform></MixSpaceCloudPlatform>
             <MXSSO></MXSSO>
             <MXOut></MXOut>
@@ -103,9 +99,9 @@ class MainContent extends React.Component {
             <XStackStatus></XStackStatus>
             <JailBird></JailBird>
             <ElevateLanding></ElevateLanding>
-            <ElevateCfP></ElevateCfP>
-            <ClementineOS></ClementineOS>
-            <Cortex></Cortex>
+            {/* <ElevateCfP></ElevateCfP> */}
+            {/* <ClementineOS></ClementineOS> */}
+            {/* <Cortex></Cortex> */}
             <StretchInc></StretchInc>
             <EMET></EMET>
             <PayrollSystem></PayrollSystem>
