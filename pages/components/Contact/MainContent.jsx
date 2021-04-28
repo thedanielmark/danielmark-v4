@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button";
 import Snackbar from "@material-ui/core/Snackbar";
 import MuiAlert from "@material-ui/lab/Alert";
 import firebase from "firebase/app";
-import "../firebase";
+import "./firebase";
 
 export default function App() {
   function Alert(props) {

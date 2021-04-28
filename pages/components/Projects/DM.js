@@ -78,7 +78,7 @@ export default function DM() {
               <li className="nav-item">
                 <Link
                   passHref
-                  href={"https://github.com/thedanielmark/calculator"}
+                  href={"https://github.com/thedanielmark/danielmark-grey"}
                 >
                   <a
                     className="nav-link grey-to-white"
@@ -111,7 +111,7 @@ export default function DM() {
               <li className="nav-item">
                 <Link
                   passHref
-                  href={"https://github.com/thedanielmark/calculator"}
+                  href={"https://github.com/thedanielmark/daniel-mark-dark"}
                 >
                   <a
                     className="nav-link grey-to-white"
@@ -144,7 +144,7 @@ export default function DM() {
               <li className="nav-item">
                 <Link
                   passHref
-                  href={"https://github.com/thedanielmark/calculator"}
+                  href={"https://github.com/thedanielmark/danielmark-v4"}
                 >
                   <a
                     className="nav-link grey-to-white"
@@ -155,7 +155,7 @@ export default function DM() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://v4.thedanielmark.com"}>
+                <Link passHref href={"https://thedanielmark.com"}>
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
@@ -164,8 +164,16 @@ export default function DM() {
                   </a>
                 </Link>
               </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link grey-to-white"
+                  style={{ paddingLeft: "0px" }}
+                >
+                  (latest)
+                </a>
+              </li>
             </ul>
-            <ul className="nav">
+            {/* <ul className="nav">
               <li className="nav-item">
                 <a
                   className="nav-link grey-to-white"
@@ -197,7 +205,7 @@ export default function DM() {
                   </a>
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <h6 className="mt-4">Technologies</h6>
           <div class="tech-badges">
