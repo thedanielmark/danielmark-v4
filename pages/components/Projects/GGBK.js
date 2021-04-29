@@ -31,8 +31,8 @@ export default function GGBK() {
             Simple static Bootstrap based website for a non-governmental
             organization based in West Bengal, India.
           </p>
-          <h6 className="mt-4">Releases</h6>
-          <div id="tech-badges">
+          {/* <h6 className="mt-4">Releases</h6> */}
+          <div className="d-none">
             <Link passHref href={"https://v5.mixspace.xyz/"}>
               <a className="grey-to-white text-decoration-none">v5 (latest)</a>
             </Link>
