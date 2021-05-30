@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import FadeIn from "../FadeIn";
 import Link from "next/link";
 import Chip from "@material-ui/core/Chip";
 
