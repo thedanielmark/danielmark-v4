@@ -1,24 +1,11 @@
-import { motion } from "framer-motion";
+import FadeIn from "../FadeIn";
 import Link from "next/link";
-import Chip from '@material-ui/core/Chip';
+import Chip from "@material-ui/core/Chip";
 
 export default function LetUsBrush() {
-  const easing = [0.6, -0.05, 0.01, 0.99];
-  const fadeIn = {
-    initial: {
-      opacity: 0,
-    },
-    animate: {
-      opacity: 1,
-      transition: {
-        duration: 1.5,
-        ease: easing,
-      },
-    },
-  };
   return (
-    <motion.div exit="exit" initial="initial" animate="animate">
-      <motion.div variants={fadeIn}>
+    <>
+      <FadeIn>
         <hr className="mt-4" />
         <div>
           <div>
@@ -40,7 +27,7 @@ export default function LetUsBrush() {
             <Chip size="small" label="Swiper" />
           </div>
         </div>
-      </motion.div>
-    </motion.div>
+      </FadeIn>
+    </>
   );
 }
