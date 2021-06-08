@@ -20,22 +20,21 @@ export default function Layout(props) {
     <div>
       <Head>
         <>
-          {/* Primary Meta Tags */}
           <title>Daniel Mark | Developer Portfolio &amp; Personal Website</title>
           <meta name="title" content="Daniel Mark | Developer Portfolio &amp; Personal Website" />
-          <meta name="description" content="Hi! I'm Danny, a software engineer based in Chennai, India. I specialize in enterprise systems programming, web development and cross-platform app development. I also own a cloud computing service named MixSpace Internet Services." />
-          {/* Open Graph / Facebook */}
+          <meta name="description" content="Hi! I'm Daniel Mark, a software engineer based in Chennai, India. I specialize in enterprise systems programming, web development and cross-platform app development." />
+
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://thedanielmark.com/" />
-          <meta name="title" property="og:title" content="Daniel Mark | Developer Portfolio &amp; Personal Website" />
-          <meta name="description" property="og:description" content="Hi! I'm Danny, a software engineer based in Chennai, India. I specialize in enterprise systems programming, web development and cross-platform app development. I also own a cloud computing service named MixSpace Internet Services." />
-          <meta name="image" property="og:image" content="https://thedanielmark.com/images/capture.png" />
-          {/* Twitter */}
+          <meta property="og:title" content="Daniel Mark | Developer Portfolio &amp; Personal Website" />
+          <meta property="og:description" content="Hi! I'm Daniel Mark, a software engineer based in Chennai, India. I specialize in enterprise systems programming, web development and cross-platform app development." />
+          <meta property="og:image" content="https://thedanielmark.com/meta-image.jpg" />
+
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://thedanielmark.com/" />
           <meta property="twitter:title" content="Daniel Mark | Developer Portfolio &amp; Personal Website" />
-          <meta property="twitter:description" content="Hi! I'm Danny, a software engineer based in Chennai, India. I specialize in enterprise systems programming, web development and cross-platform app development. I also own a cloud computing service named MixSpace Internet Services." />
-          <meta property="twitter:image" content="https://v3.thedanielmark.com/images/capture.png" />
+          <meta property="twitter:description" content="Hi! I'm Daniel Mark, a software engineer based in Chennai, India. I specialize in enterprise systems programming, web development and cross-platform app development." />
+          <meta property="twitter:image" content="https://thedanielmark.com/meta-image.jpg" />
         </>
 
       </Head>
