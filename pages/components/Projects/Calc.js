@@ -1,27 +1,13 @@
-import { motion } from "framer-motion";
+import FadeIn from "../FadeIn";
 import Link from "next/link";
-import Chip from '@material-ui/core/Chip';
+import Chip from "@material-ui/core/Chip";
 
 export default function Calc() {
-  const easing = [0.6, -0.05, 0.01, 0.99];
-  const fadeIn = {
-    initial: {
-      opacity: 0,
-    },
-    animate: {
-      opacity: 1,
-      transition: {
-        duration: 1.5,
-        ease: easing,
-      },
-    },
-  };
-
   const tech = ["Dart", "Swift", "Kotlin", "Objective-C"];
 
   return (
-    <motion.div exit="exit" initial="initial" animate="animate">
-      <motion.div variants={fadeIn}>
+    <>
+      <FadeIn>
         <hr className="mt-4" />
         <div>
           <div>
@@ -35,10 +21,18 @@ export default function Calc() {
           <div className="d-none">
             <ul className="nav">
               <li className="nav-item">
-                <a className="nav-link grey-to-white" style={{ paddingLeft: "0px" }}>v1</a>
+                <a
+                  className="nav-link grey-to-white"
+                  style={{ paddingLeft: "0px" }}
+                >
+                  v1
+                </a>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://github.com/thedanielmark/calculator"}>
+                <Link
+                  passHref
+                  href={"https://github.com/thedanielmark/calculator"}
+                >
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
@@ -48,7 +42,12 @@ export default function Calc() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link passHref href={"https://github.com/thedanielmark/calculator/blob/master/calculator.apk"}>
+                <Link
+                  passHref
+                  href={
+                    "https://github.com/thedanielmark/calculator/blob/master/calculator.apk"
+                  }
+                >
                   <a
                     className="nav-link grey-to-white"
                     style={{ paddingLeft: "0px" }}
@@ -62,13 +61,11 @@ export default function Calc() {
           <h6 className="mt-4">Technologies</h6>
           <div class="tech-badges">
             {tech.map((chip) => {
-              return (
-                <Chip size="small" key={chip} label={chip} />
-              );
+              return <Chip size="small" key={chip} label={chip} />;
             })}
           </div>
         </div>
-      </motion.div>
-    </motion.div>
+      </FadeIn>
+    </>
   );
 }

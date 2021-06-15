@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <React.Fragment>
+    <>
       <div className="d-flex justify-content-end w-100 mb-3">
         <Link href={"/"} passHref>
           <a className="grey-to-white text-decoration-none d-flex align-items-baseline">
@@ -55,6 +55,6 @@ export default function Home() {
           github.com/thedanielmark
         </a>
       </p>
-    </React.Fragment>
+    </>
   );
 }
