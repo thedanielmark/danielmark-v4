@@ -17,8 +17,10 @@ export default function Home() {
         plus another 5 years of tinkering with code and trying to build
         something cool (ergo projects that I hope no one will ever see again
         xD). I focus on Enterprise Software, Highly Scalable Web Applications
-        and Cloud Computing. I'm currently pursuing my Bachelor of Technology in
-        IT Engineering at Loyola-ICAM College of Engineering &amp; Technology.
+        and Cloud Computing. I graduated with a Bachelor of Technology in IT
+        Engineering from Loyola-ICAM College of Engineering &amp; Technology. I
+        currently work at Stratforge - an artificial intelligence startup based
+        out of Chennai, India.
       </p>
       <h4 className="d-block mt-5 mb-4">Core Competencies</h4>
       <h6>🖥️ Languages</h6>
