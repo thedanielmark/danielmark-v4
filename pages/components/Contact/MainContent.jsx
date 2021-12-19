@@ -88,7 +88,7 @@ export default function App() {
   };
 
   return (
-    <React.Fragment>
+    <>
       <div className="d-flex justify-content-end w-100 mb-3">
         <Link href={"/"} passHref>
           <a className="grey-to-white text-decoration-none d-flex align-items-baseline">
@@ -165,6 +165,6 @@ export default function App() {
           I received your message! 🙂
         </Alert>
       </Snackbar>
-    </React.Fragment>
+    </>
   );
 }
