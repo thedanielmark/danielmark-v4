@@ -12,19 +12,31 @@ export default function Home() {
         </Link>
       </div>
       <h4 className="d-block">A little introduction about myself</h4>
-      <p className="d-block py-3">
+      <p className="d-block text-grey py-3">
         I love building complex apps that need to massively scale. My expertise
         primarily lies in building enterprise applications on the cloud and
         architecting SaaS applications. Some of my previous stints include{" "}
-        <a className="text-decoration-none" href="https://mixspace.xyz">
+        <a
+          className="text-decoration-none"
+          style={{ color: "#bbb" }}
+          href="https://mixspace.xyz"
+        >
           MixSpace Cloud
         </a>
         ,{" "}
-        <a className="text-decoration-none" href="https://pattarai.in">
+        <a
+          className="text-decoration-none"
+          style={{ color: "#bbb" }}
+          href="https://pattarai.in"
+        >
           Pattarai
         </a>{" "}
         and{" "}
-        <a className="text-decoration-none" href="https://stratforge.com">
+        <a
+          className="text-decoration-none"
+          style={{ color: "#bbb" }}
+          href="https://stratforge.com"
+        >
           Stratforge
         </a>
         . I'm currently working in stealth on a SaaS product in the marketing
