@@ -12,17 +12,25 @@ export default function Home() {
         </Link>
       </div>
       <h4 className="d-block">A little introduction about myself</h4>
-      <p className="d-block text-grey">
-        I'm a software engineer with over 4 years of professional experience
-        plus another 5 years of tinkering with code and trying to build
-        something cool (ergo projects that I hope no one will ever see again
-        xD). I focus on Enterprise Software, Highly Scalable Web Applications
-        and Cloud Computing. I graduated with a Bachelor of Technology in IT
-        Engineering from Loyola-ICAM College of Engineering &amp; Technology. I
-        currently work at Stratforge - an artificial intelligence startup based
-        out of Chennai, India.
+      <p className="d-block py-3">
+        I love building complex apps that need to massively scale. My expertise
+        primarily lies in building enterprise applications on the cloud and
+        architecting SaaS applications. Some of my previous stints include{" "}
+        <a className="text-decoration-none" href="https://mixspace.xyz">
+          MixSpace Cloud
+        </a>
+        ,{" "}
+        <a className="text-decoration-none" href="https://pattarai.in">
+          Pattarai
+        </a>{" "}
+        and{" "}
+        <a className="text-decoration-none" href="https://stratforge.com">
+          Stratforge
+        </a>
+        . I'm currently working in stealth on a SaaS product in the marketing
+        and advertising technology segment.
       </p>
-      <h4 className="d-block mt-5 mb-4">Core Competencies</h4>
+      {/* <h4 className="d-block mt-5 mb-4">Core Competencies</h4>
       <h6>🖥️ Languages</h6>
       <p className="text-grey">
         JavaScript (ES5 &amp; ES6), HTML5, CSS3/SASS, PHP &amp; Python.
@@ -47,7 +55,7 @@ export default function Home() {
         JAMstack, Object Oriented Programming, Wireframing, Test-Driven
         Development, Responsive Design, Authentication, Agile Development/Scrum,
         the command line.
-      </p>
+      </p> */}
       <p className="mt-5">
         Take a look at my work by logging onto{" "}
         <a
