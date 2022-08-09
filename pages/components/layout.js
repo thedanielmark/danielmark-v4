@@ -71,7 +71,7 @@ export default function Layout(props) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="https://twitter.com/the_danielmark" passHref>
+                <Link href="https://twitter.com/thedanielmark" passHref>
                   <a className="nav-link grey-to-white" target="top">
                     <i className="fab fa-twitter" />
                   </a>
