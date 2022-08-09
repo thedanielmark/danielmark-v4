@@ -13,14 +13,13 @@ export default function Home() {
       </div>
       <h4 className="d-block">A little introduction about myself</h4>
       <p className="d-block text-grey">
-        I'm a software engineer with over 4 years of professional experience
-        plus another 5 years of tinkering with code and trying to build
-        something cool (ergo projects that I hope no one will ever see again
-        xD). I focus on Enterprise Software, Highly Scalable Web Applications
-        and Cloud Computing. I graduated with a Bachelor of Technology in IT
-        Engineering from Loyola-ICAM College of Engineering &amp; Technology. I
-        currently work at Stratforge - an artificial intelligence startup based
-        out of Chennai, India.
+        I'm an engineer by education and my expertise lies primarily in
+        architecting and building highly scalable internet applications, cloud
+        computing &amp; distributed computing, internet security, blockchain
+        technologies and data analytics. I graduated with a Bachelor of
+        Technology in IT Engineering from Loyola-ICAM College of Engineering
+        &amp; Technology. I currently work at Stratforge - an artificial
+        intelligence startup based out of Chennai, India.
       </p>
       <h4 className="d-block mt-5 mb-4">Core Competencies</h4>
       <h6>🖥️ Languages</h6>
