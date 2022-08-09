@@ -18,10 +18,14 @@ export default function Home() {
         computing &amp; distributed computing, internet security, blockchain
         technologies and data analytics. I graduated with a Bachelor of
         Technology in IT Engineering from Loyola-ICAM College of Engineering
-        &amp; Technology. I currently work at Stratforge - an artificial
-        intelligence startup based out of Chennai, India.
+        &amp; Technology. Some of my previous stints include MixSpace Cloud,
+        Pattarai, Stratforge &amp; Dali. I am currently building{" "}
+        <a href="https://nftconomy.io">NFTCONOMY</a> - one of the biggest NFT
+        data aggregators that provides users with real-time analytics and market
+        insights while leveraging Machine Learning technologies to predict
+        metrics at scale.
       </p>
-      <h4 className="d-block mt-5 mb-4">Core Competencies</h4>
+      {/* <h4 className="d-block mt-5 mb-4">Core Competencies</h4>
       <h6>🖥️ Languages</h6>
       <p className="text-grey">
         JavaScript (ES5 &amp; ES6), HTML5, CSS3/SASS, PHP &amp; Python.
@@ -46,7 +50,7 @@ export default function Home() {
         JAMstack, Object Oriented Programming, Wireframing, Test-Driven
         Development, Responsive Design, Authentication, Agile Development/Scrum,
         the command line.
-      </p>
+      </p> */}
       <p className="mt-5">
         Take a look at my work by logging onto{" "}
         <a
